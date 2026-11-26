@@ -1,0 +1,15 @@
+{
+  "name": "kubatsoft/tc-kimlik-dogrulama",
+  "description": "T.C. kimlik numarası kontrolü ve GİB ad-soyad sorgusu örneği",
+  "type": "library",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": { "KubatSoft\\Kimlik\\": "src/" }
+  },
+  "scripts": { "test": "@php tests/php.php" }
+}
